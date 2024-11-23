@@ -25,6 +25,7 @@ void PrintVariants(const Variants<Args...>& variants)
 	{
 		std::cout << std::get<Index>(variants.values) << ' ';
 		PrintVariants<Index + 1>(variants);
+		// 이펙티브 C++에서 TMP의 반복문으로 소개된 재귀 템플릿 인스턴스화를 적용했습니다.
 	}
 }
 
