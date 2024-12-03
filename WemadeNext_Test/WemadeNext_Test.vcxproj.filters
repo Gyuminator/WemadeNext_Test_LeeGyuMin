@@ -10,6 +10,6 @@
     <ClCompile Include="Test_2.cpp" />
     <ClCompile Include="Test_3.cpp" />
     <ClCompile Include="Test_4.cpp" />
-    <ClCompile Include="Test_6cpp.cpp" />
+    <ClCompile Include="Test_6.cpp" />
   </ItemGroup>
 </Project>
